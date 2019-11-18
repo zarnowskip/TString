@@ -24,6 +24,9 @@ class TString {
         char& back() { return *(ptr+len-1); } 
         const char& back() const { return *(ptr+len-1); } 
 
+        char* insert(size_t pos, const char* c);
+        char* insert(size_t pos, char* c);
+
     private:
         char* ptr = nullptr;
         std::size_t len = 0;

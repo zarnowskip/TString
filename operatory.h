@@ -4,7 +4,7 @@
 #include<fstream>
 class TString;
 
-    friend std::ostream& std::ostream& operator<<(std::ostream& strumien, const TString& s);
-    friend std::istream& operator>>(std::istream& strumien, TString& s);
+std::ostream& operator<<(std::ostream& strumien, const TString& s);
+std::istream& operator>>(std::istream& strumien, TString& s);
 
 #endif
