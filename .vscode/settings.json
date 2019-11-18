@@ -1,0 +1,12 @@
+{
+    "workbench.colorTheme": "Visual Studio Dark",
+    "editor.mouseWheelZoom": true,
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "C_Cpp.updateChannel": "Insiders",
+    "C_Cpp.default.cppStandard": "c++20",
+    "compilerPath": "C:\\msys64\\mingw64\\bin\\g++.exe",
+    "git.path": "C:\\Users\\student.IT\\AppData\\Local\\Programs\\Git\\cmd\\git.exe",
+    "[cpp]": {},
+    "git.suggestSmartCommit": false
+}

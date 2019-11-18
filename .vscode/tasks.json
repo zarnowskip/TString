@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build hello world",
+        "type": "shell",
+        "command": "g++",
+        "args": ["-g", "-std=c++17", "-fno-elide-constructors", "-DDEBUG", "-Wall", "-o", "prog", "main.cpp", "tstring.cpp"],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        }
+      }
+    ]
+  }
