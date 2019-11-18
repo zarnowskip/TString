@@ -5,7 +5,7 @@
         "label": "build hello world",
         "type": "shell",
         "command": "g++",
-        "args": ["-g", "-std=c++17", "-fno-elide-constructors", "-DDEBUG", "-Wall", "-o", "prog", "main.cpp", "tstring.cpp"],
+        "args": ["-g", "-std=c++17", "-fno-elide-constructors", "-DDEBUG", "-Wall", "-o", "prog", "main.cpp", "tstring.cpp", "operatory.cpp"],
         "group": {
           "kind": "build",
           "isDefault": true
