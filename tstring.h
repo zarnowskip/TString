@@ -35,4 +35,5 @@ class TString {
     friend std::istream& operator>>(std::istream& strumien, TString& s);
 };
 
+
 #endif // TSTRING_H
